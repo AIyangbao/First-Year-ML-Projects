@@ -14,8 +14,6 @@ Python/
 __pycache__/
 *.py[cod]
 
-# 忽略Jupyter缓存
-.ipynb_checkpoints/
 
 # 忽略其他无关文件夹
 Flask学习和Apifox的使用/
