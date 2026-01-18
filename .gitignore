@@ -8,7 +8,7 @@
 .idea/
 .vscode/
 *.iml
-
+VSCode/
 # 忽略Python相关文件夹和缓存
 Python/
 __pycache__/
@@ -17,8 +17,9 @@ __pycache__/
 
 # 忽略其他无关文件夹
 Flask学习和Apifox的使用/
-PyCharm Community Edition 2023.../
-
+PyCharm Community Edition 2023.3.1/
+Tableau/
+入学礼包（书籍+软件资料包）/
 # 忽略系统文件
 .DS_Store
 Thumbs.db
