@@ -4,3 +4,23 @@
 .idea/misc.xml
 .idea/modules.xml
 .idea/.gitignore
+# 忽略IDE配置
+.idea/
+.vscode/
+*.iml
+
+# 忽略Python相关文件夹和缓存
+Python/
+__pycache__/
+*.py[cod]
+
+# 忽略Jupyter缓存
+.ipynb_checkpoints/
+
+# 忽略其他无关文件夹
+Flask学习和Apifox的使用/
+PyCharm Community Edition 2023.../
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
