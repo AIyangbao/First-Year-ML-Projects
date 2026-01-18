@@ -10,6 +10,7 @@
 *.iml
 VSCode/
 # 忽略Python相关文件夹和缓存
+!Python算法/
 Python/
 __pycache__/
 *.py[cod]
