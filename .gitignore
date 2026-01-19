@@ -22,14 +22,7 @@ __pycache__/
 *.tmp
 
 
-# ===================== 重点！！！强制放行你的目标文件夹 + 所有子内容 =====================
-# 永远不忽略你的大文件夹
-!Python算法/
-# 永远不忽略你要提交的目标小文件夹 + 里面所有文件/子文件夹
-!Python算法/机器学习实践项目(自做)/
-!Python算法/机器学习实践项目(自做)/*
-# 小文件夹里的所有子文件夹也强制放行（防止里面还有子目录）
-!Python算法/机器学习实践项目(自做)/**/*
+
 # 忽略其他无关文件夹
 Flask学习和Apifox的使用/
 PyCharm Community Edition 2023.3.1/
@@ -39,7 +32,7 @@ Tableau/
 计算机维护/
 华算Alphinity/
 机器学习选题/
-Python算法\机器学习实践项目(自做)\.ipynb_checkpoints\
+Python算法/机器学习实践项目(自做)/.ipynb_checkpoints/
 # 忽略系统文件
 .DS_StoreS
 Thumbs.db
