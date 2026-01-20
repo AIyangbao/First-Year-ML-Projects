@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 130px;
+            border: 1px solid gray;
+            /* 外边距 上下为0 左右自动居中 */
+            margin: 0px auto;
+            /* 边框圆角 */
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            float: right;
+            color: deepskyblue;
+        }
+
+        .a2 {
+            color: gray;
+            ;
+        }
+
+        span {
+            border-bottom: 5px solid purple;
+            padding-bottom: 6px;
+        }
+
+        .ipt1 {
+            width: 190px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            margin-top: 4px;
+        }
+
+        .ipt2 {
+            background-color: deepskyblue;
+        }
+
+        .ipt3 {
+            /* 位置     相对定位 */
+            position: relative;
+            top: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="a">
+        <span>请登陆</span><a href="https://www.baidu.com">立即注册</a>
+        <br>
+        <hr>
+        <input type="text" placeholder="请输入用户名" class="ipt1">
+        <br>
+        <input type="password" placeholder="请输入密码" class="ipt1">
+        <br>
+        <input type="checkbox" class="ipt3">自动登陆<a href="https://www.baidu.com" class="a2">忘记密码?</a>
+        <br>
+        <input type="button" value="登录" class="ipt1 ipt2">
+    </div>
+</body>
+<script>
+    inputs = document.getElementsByTagName('input');
+    inputs[3].onclick = function(){
+        username = inputs[0].value;
+        password = inputs[1].value;
+        console.log(username,password);
+        // 1、创建 xhr 对象
+        xhr = new XMLHttpRequest();
+        // 2、调用 open 函数
+        xhr.open('POST','http://127.0.0.1:5005/login')
+        // 3、构建参数
+        data = new FormData();
+        data.append('username',username);
+        data.append('password',password);
+        // 4、调用 send 函数 同时传入参数
+        xhr.send(data);
+        // 5、监听事件
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState == 4 && xhr.status == 200){
+                console.log(xhr.responseText);
+                alert(xhr.responseText);
+            }
+        }
+    }
+</script>
+</html>

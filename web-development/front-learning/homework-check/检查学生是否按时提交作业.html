@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+function checkhomework(submissionTime,deadline){
+        if(submissionTime<deadline){
+            console.log("按时提交");
+        }
+        else if(submissionTime>=deadline){
+            console.log("迟交");
+        }
+        else{
+            console.log("请输入有效时间");
+        }
+}
+console.log(checkhomework(14, 16));
+console.log(checkhomework(17, 16));
+console.log(checkhomework("abc", 16));
+</script>
+</html>

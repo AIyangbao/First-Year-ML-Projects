@@ -1,0 +1,89 @@
+.head{width:100%;
+    height: 400px;
+    background-image: url('../img/index/bg.jpg');
+    background-size:cover;
+}
+.head nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(131, 127, 127,0.5);
+    position: relative;
+    top: 100px;
+}
+.head nav .left{
+    float: left;
+    width:200px;
+    height: 80px;
+    background-color: white;
+    text-align:center;
+    line-height: 80px;
+    font-size: 25px;
+    font-weight: 800;
+    border-bottom-right-radius:80px;
+}
+.head nav .right{
+    float: right;
+    margin-right: 100px;
+}
+.head nav .right a{
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    height: 80px;
+    display: inline-block;
+    line-height: 80px;
+    text-align: center;
+    margin:0 10px;
+}
+.head nav .right a:hover{
+    background-color: white;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.main .left{
+    width: 200px;
+    height: 80px;
+    background-color: blueviolet;
+    text-align: center;
+    line-height: 80px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 200px;
+    font-size: 35px;
+}
+.main .right{
+    width:900px;
+    height:600px;
+    margin:0 auto;
+}
+.main .right .content img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.main .right .content .text{
+    width: 700px;
+    height: 200px;
+    float: right;
+}
+.foot .top{
+    width: 800px;
+    height: 200px;
+    background-color: rgb(115, 171, 243);
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.foot .top .interact a{
+    text-decoration: none;
+    color: white;
+    margin: 0 70px;
+}
+.foot .bottom{
+    text-align: center;
+}
+.foot .top  .interact a:hover{
+    color: red;
+}
