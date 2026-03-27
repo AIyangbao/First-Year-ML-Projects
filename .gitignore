@@ -34,6 +34,7 @@ Tableau/
 机器学习选题/
 Python算法/机器学习实践项目(自做)/.ipynb_checkpoints/
 深度学习选题/
+机器学习与深度学习/deep-learning/cifar-10-batches-py/
 # 忽略系统文件
 .DS_StoreS
 Thumbs.db
