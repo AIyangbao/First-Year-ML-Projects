@@ -10,7 +10,7 @@
 
 ### 2. Python编程（python-projects/）
 - 技术栈:requests,BeautifulSoup,jieba,pandas,numpy,Matplotlib、Pyecharts、jupyter
-- 爬虫：爬取新闻、壁纸、招聘数据并导出Excel
+- 爬虫：爬取新闻、壁纸、招聘数据并导出Excel、百度引擎爬取关键字图片系统
 - 自动化：浏览器自动化、Excel表格生成
 - 数据分析：电商客户分析、天气预报查询系统、奶茶店数据分析、酒店数据分析、抖音热门商品数据分析
 
