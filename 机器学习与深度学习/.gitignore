@@ -1,3 +1,4 @@
 deep-learning/RAF-DB
-deep-learning/data
-deep-learning/files
+**/data/
+deep-learning/Files
+/home/yanglibao/桌面/First-Year-ML-Projects/机器学习与深度学习/deep-learning/Files
