@@ -12,6 +12,6 @@ def demo():
     [5, '疯狂星期四', '肯德基', 'V我50，今天疯狂星期四', '营销/段子'],]
     for hot in hot_memes:
         sheet.append(hot)
-    wb.save('热梗表.XLSX')
+    wb.save('D:\编程教程\Python-projects\data-analysis\data\热梗表.XLSX')
 if __name__ == '__main__':
     demo()
